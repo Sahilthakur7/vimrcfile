@@ -11,6 +11,8 @@ let g:ctrlp_cmd = 'CtrlP'
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi LineNr ctermbg=none
+:set number
+:set relativenumber
 
 try
 source ~/.vim_runtime/my_configs.vim

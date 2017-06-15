@@ -6,8 +6,10 @@ source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 
-let g:ctrlp_map = '<c-p>'
+let g:ctrlp_map = '<c-p>' 
 let g:ctrlp_cmd = 'CtrlP' 
+let mapleader="\<Space>"
+nmap <leader><leader> :vsplit<cr>
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi LineNr ctermbg=none

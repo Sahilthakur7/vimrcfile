@@ -11,6 +11,9 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP' 
 let mapleader="\<Space>"
 nmap <leader><leader> :vsplit<cr>
+nmap j gj
+nmap k gk
+
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi LineNr ctermbg=none

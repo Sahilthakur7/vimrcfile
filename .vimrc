@@ -13,7 +13,10 @@ let mapleader="\<Space>"
 nmap <leader><leader> :vsplit<cr>
 nmap j gj
 nmap k gk
-
+map <leader>i mmgg=G'm<cr>
+map <leader>p :set paste<cr>o<esc>"*]p:set nopaste<cr>
+map ee <C-w>
+map <leader>h :noh<cr>
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi LineNr ctermbg=none

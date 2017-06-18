@@ -17,6 +17,7 @@ map <leader>i mmgg=G'm<cr>
 map <leader>p :set paste<cr>o<esc>"*]p:set nopaste<cr>
 map ee <C-w>
 map <leader>h :noh<cr>
+map cm gc
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi LineNr ctermbg=none

@@ -1,3 +1,4 @@
+execute pathogen#infect()
 set runtimepath+=~/.vim_runtime
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 

@@ -7,7 +7,7 @@ source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
 source ~/.vim_runtime/vimrcs/extended.vim
 
-
+let g:jsx_ext_required = 0
 let g:ctrlp_cmd = 'CtrlP' 
 let g:ctrlp_map = '<c-p>' 
 let mapleader="\<Space>"
